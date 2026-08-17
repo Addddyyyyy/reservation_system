@@ -7,7 +7,7 @@ This repository contains the backend implementation for a Table Reservation Syst
 
 ---
 
-## 🏛 Architecture & Component Breakdown
+## Component Breakdown
 
 Our Django application is compartmentalized into standard architectural layers. The main project settings reside in the root folder, while the core logic is handled by the `reservation_app` application.
 
@@ -46,7 +46,7 @@ All routes are namespaced under `reservation_app` to ensure modularity.
 
 ---
 
-## 🚀 Environment Setup & Execution
+## Environment Setup & Execution
 
 Follow these steps to launch the system locally.
 
@@ -83,7 +83,7 @@ python manage.py runserver
 
 ---
 
-## 🧪 Verification & Testing
+## Verification & Testing
 
 Because there is no frontend styling or HTML templating, navigating to the application's URLs via a browser will yield raw JSON responses. This correctly validates the `URL → View → Model` lifecycle.
 
@@ -96,7 +96,7 @@ To perform manual data testing, you can:
    >>> Customer.objects.all()
    ```
 
-## ✅ Assignment Completion Status
+## Assignment Completion Status
 - ERD accurately translated into Django Models.
 - Forms, Views, and URLs are successfully integrated and connected.
 - Zero configuration, migration, or routing errors upon startup.
